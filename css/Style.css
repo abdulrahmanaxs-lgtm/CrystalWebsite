@@ -609,20 +609,36 @@ body {
 /* ---------- 576px (Large phones) ---------- */
 @media (max-width: 576px) {
 
-    .nv {
-       gap: 10px;
-        margin: 10px;
+    /* NAV CONTAINER ADJUSTMENTS */
+    .navbar .container-fluid {
+        flex-wrap: wrap;
+        justify-content: center;   /* center everything */
+        text-align: center;
+        gap: 10px;
     }
 
-    /* LOGO CENTERED */
+    /* LOGO RESIZE */
+    .logo {
+        width: 70px;   /* smaller logo */
+    }
+
     .adj {
-        width: 50px;
+        margin-left: 0 !important;
     }
 
-    /* NAV BUTTONS FULL WIDTH & CENTERED */
+    /* NAV LINKS → SHRINK + CENTER */
+    .nv {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;      /* allow wrapping */
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
     .nv a {
-        padding: 5px;
-        font-size: small;
+        font-size: 14px;
+        padding: 6px 8px;
     }
     
     .pgs h1 {
@@ -677,20 +693,36 @@ body {
 /* ---------- 400px (Small phones) ---------- */
 @media (max-width: 400px) {
 
-    .nv {
-       gap: 10px;
-        margin: 10px;
+    /* NAV CONTAINER ADJUSTMENTS */
+    .navbar .container-fluid {
+        flex-wrap: wrap;
+        justify-content: center;   /* center everything */
+        text-align: center;
+        gap: 10px;
     }
 
-    /* LOGO CENTERED */
+    /* LOGO RESIZE */
+    .logo {
+        width: 70px;   /* smaller logo */
+    }
+
     .adj {
-        width: 50px;
+        margin-left: 0 !important;
     }
 
-    /* NAV BUTTONS FULL WIDTH & CENTERED */
+    /* NAV LINKS → SHRINK + CENTER */
+    .nv {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;      /* allow wrapping */
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
     .nv a {
-        padding: 5px;
-        font-size: small;
+        font-size: 14px;
+        padding: 6px 8px;
     }
     
     .pgs h1 {
@@ -750,6 +782,7 @@ body {
         font-size: 24px;
     }
 }
+
 
 
 
