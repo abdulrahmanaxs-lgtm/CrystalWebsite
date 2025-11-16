@@ -197,7 +197,7 @@ body {
 }
 
 .icp div p {
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -611,12 +611,20 @@ body {
 
     .nv {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* stack vertically */
+        align-items: center;    /* center horizontally */
+        justify-content: center;
         gap: 12px;
         padding: 15px 0;
     }
 
+    /* LOGO CENTERED */
+    .nv img {
+        width: 120px;       /* adjust based on your logo size */
+        margin-bottom: 10px;
+    }
+
+    /* NAV BUTTONS FULL WIDTH & CENTERED */
     .nv a {
         font-size: 16px;
         padding: 8px 12px;
@@ -726,5 +734,6 @@ body {
         font-size: 24px;
     }
 }
+
 
 
