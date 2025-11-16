@@ -619,7 +619,7 @@ body {
 
     /* LOGO RESIZE */
     .logo {
-        width: 70px;   /* smaller logo */
+        width: 100px;   /* smaller logo */
     }
 
     .adj {
@@ -782,6 +782,7 @@ body {
         font-size: 24px;
     }
 }
+
 
 
 
