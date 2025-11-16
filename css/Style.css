@@ -643,11 +643,11 @@ body {
     }
 
     .hero-text h1 {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .hero-text p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     /* Cards: 1 per row */
@@ -734,6 +734,7 @@ body {
         font-size: 24px;
     }
 }
+
 
 
 
