@@ -624,6 +624,10 @@ body {
         text-align: center;
     }
 
+    .pgs h1 {
+        font-size: 30px;
+    }
+
 
     /* Hero */
     .hero {
@@ -722,4 +726,5 @@ body {
         font-size: 24px;
     }
 }
+
 
