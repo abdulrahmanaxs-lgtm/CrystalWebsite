@@ -1,1 +1,704 @@
-* { padding: 0; margin: 0; border: 0; } html { scroll-behavior: smooth; } @media (max-width: 750px) { .nv a{ font-size: small; } } body{ background: #fff; background-size: cover; background-repeat: no-repeat; height: 100vh; } /* nav adjustments */ .logo { display: flex; width: 40%; height: auto; margin: 0px auto; } .adj { display: inline-block; width: 200px; } .nv { display: flex; margin: 20px; justify-content: space-between; } .nv a { background: none; text-decoration: none; color: #000; margin: 0px 20px; padding: 10px 10px; font-size: larger; font-family: grid; } .act div { display: flex; border: none; border-top: 3px solid #000; border-radius: calc(10px); } .nv a:hover { background:rgb(223, 223, 223); border-radius: calc(15px); transition: ease-in-out 0.15s; } .srch { display: flex; width: 400px; } .mrgb { margin-bottom: 10px; } /* Slideshow */ .sld { width: 100%; height: 700px; filter: blur(3px) brightness(0.5) } .sldt { position: absolute; top: 30%; right: auto; left: 10%; text-align: left; width: 40%; } .sldt h1 { font-size: 60px; } .sldt p { margin-top: 20px; font-size: 29px; } .line { border: none; border-top: 2px solid #000; margin: 15px 150px; padding: 1px auto; margin-bottom: 5px !important; } .cont{ background: #f5f5f5; padding:10px; padding-bottom: 30px; } .spc { border: none; margin: 40px auto; } /* cards */ .he1 { display: flex; justify-content: center; margin: 80px auto; margin-top: 20px; font-size: calc(50px); font-weight: calc(600); } .sline { width: 35%; border-top: 4px solid #000; margin: 30px 0px; padding: 1px auto; } .crdiv { margin: auto 100px; } .crds { border: none; } .crds:hover { border: 1px solid #000; } .crds img { width: auto; height: 200px; } .btnn{ background: none; border: 1px solid #000; border-radius: calc(3px); font-weight: 600; padding: 5px 30px; margin: 15px 15px; width: 30%; } .btnn:hover { background: #000; color: white; transition: ease-in-out 0.3s; } /* about us */ .abt { width: 100%; height: 550px; background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(../img/about_us.jpg); background-repeat: no-repeat; background-size: cover; margin: 60px auto; margin-bottom: 80px; } .abt h2{ margin-left: 100px; padding-top: 80px; margin-bottom: 20px; color: #fff; font-size: 2.5rem; } .abt p { margin-top: 20px; margin-left: 60px; margin-right: 120px; color: #fff; font-size: 1.5rem; font-weight: 700; } /* footer */ .ftr { background: #e1e1e1; display: flex; flex-wrap: wrap; padding: 20px 120px; padding-bottom: 40px; } .ic { margin: 0px 50px; text-align: center; width: 60%; font-size: 35px; } .ic i:hover { background: none; font-size: 40px; border: none; transition: calc(0.7s); } .ic a , .ftr div h6 a{ margin: 0px 30px; text-decoration: none; color: #000; } .ftr h6, .ftr h2 { margin: 0px 20px; margin-bottom: 0px !important; padding-top: 5px; } .pp { color: #000; } .pp:hover { text-decoration: underline; font-weight: 510; } .cop { display: block; text-align: center; flex-basis: 100%; padding-top: 35px; margin: 10px; padding-right: 30px; } /* pages */ .pgs { margin: 150px 10px; } .pgs h1 { margin: 40px 20px; font-size: 50px; font-weight: 600; } .icp { margin: 100px 50px; text-align: center; display: flex; justify-content: space-between; font-size: 30px; margin-top: 120px; } .icp div{ cursor: pointer; } .icp div i{ padding: 25px; border: 1px solid #000; border-radius: 50%; width: 100px; } .icp div p { font-size: 23px; margin: 10px auto; width: 120px; } .icp div:hover i { background: #000; color: #fff; transition: color 0.5s ease, transform 0.5s ease; } .icp div:hover p{ text-decoration: underline; } .slined { width: 100%; border-top: 2px solid #ece9ea; margin: 30px 0px; padding: 1px auto; } .srv { margin: 100px 300px; } .sgn{ margin: 100px; padding: 50px 0px; } .hfrm { text-align: center; } .hfrm p { width: auto; margin: 30px 200px; font-size: larger; } .frm { text-align: center; } .frminp input{ display: block; text-align: center; width: 35%; margin: 50px auto; padding: 10px 0px; border: none; border-radius: calc(10px); } .frminp input:hover { border: 1px solid #000; } .frmbtn { width: 30% !important; border: 1px solid #000 !important; color: black; background: none; } .frmbtn:hover { background: #000; color: white; transition: ease-in-out 0.3s; } .sprt { display: flex; margin: 70px 40px; justify-content: center; flex-wrap: wrap; /* allows wrapping to the next line */ gap: 16px; } .sprtd { margin: 20px 10px; width: calc(40% - 8px); /* 50% width for two per row, minus half the gap */ display: flex; flex-direction: column; text-align: center; justify-content: center; align-content: center; } .sprtd:hover { border: 1px solid #000; cursor: pointer; } .sprtd:hover h4 { color: #676767; } .sprtd h4 { margin-bottom: 10px; font-weight: bold; } .sprtd a { margin-top: 25px; background: #000; border-color: #000; font-weight: 600; } .sprtd a:hover { background: #e6e6e6; color: #000; border-color: #000; } .sprth { margin-top: 90px; } .sprtp { text-align: center; font-size: large; color: #294e95; } .sprtp:hover { text-decoration: underline; cursor: pointer; } .tlt { font-size: 25px; } .trms { padding-top: 20px; background:rgb(223, 223, 223); padding-bottom: 10px; } .intrms { padding-left: 200px; padding-right: 500px; } .trmscnt { padding-left: 20px; } .trmscnttlt { font-size: 20px; padding-left: 20px; font-weight: 550; } .trmscntlist { padding-left: 50px; } .trmsbpad { padding-bottom: 10px; }
+/* ---------------------------------------------------------- */
+/* RESET + GLOBAL                                             */
+/* ---------------------------------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------------------------------------------------- */
+/* NAVIGATION                                                 */
+/* ---------------------------------------------------------- */
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.adj {
+    margin-left: 20PX;
+    display: inline-block;
+    width: 100px;
+}
+
+.nv-mrg {
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+}
+
+.nv {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+.nv a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: larger;
+}
+
+.nv a:hover {
+    background: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: 0.15s ease-in-out;
+}
+
+.srch {
+    width: 400px;
+}
+
+.mrgb {
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------- */
+/* CAROUSEL                                                   */
+/* ---------------------------------------------------------- */
+.sld {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    filter: blur(3px) brightness(0.5);
+}
+
+.sldt {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    text-align: left;
+}
+
+.sldt h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.sldt p {
+    margin-top: 20px;
+    font-size: 29px;
+}
+
+/* ---------------------------------------------------------- */
+/* SECTION BORDERS                                            */
+/* ---------------------------------------------------------- */
+.line {
+    border-top: 2px solid #000;
+    margin: 15px 150px;
+}
+
+.cont {
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+
+.sline {
+    width: 35%;
+    border-top: 4px solid #000;
+    margin: 30px 0;
+}
+
+.slined {
+    width: 100%;
+    border-top: 2px solid #ece9ea;
+    margin: 30px 0;
+}
+
+/* ---------------------------------------------------------- */
+/* PRODUCT CARDS                                              */
+/* ---------------------------------------------------------- */
+.he1 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.crdiv {
+    margin: 0 100px;
+}
+
+.crds {
+    border: none;
+    width: 100%;
+}
+
+.crds:hover {
+    border: 1px solid #000;
+}
+
+.crds img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.btnn {
+    background: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 5px 0px;
+    margin: 15px auto;
+    width: 30%;
+}
+
+.btnn:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* ---------------------------------------------------------- */
+/* PRODUCT & SERVICE ICONS                                    */
+/* ---------------------------------------------------------- */
+.pgs {
+    margin: 150px 10px;
+}
+
+.pgs h1 {
+    margin: 40px 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.icp {
+    margin: 100px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+}
+
+.icp div {
+    cursor: pointer;
+}
+
+.icp div i {
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.icp div p {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.icp div:hover i {
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.icp div:hover p {
+    text-decoration: underline;
+}
+
+.srv {
+    margin: 100px 300px;
+}
+
+/* ---------------------------------------------------------- */
+/* SIGN-IN FORM                                               */
+/* ---------------------------------------------------------- */
+.sgn {
+    margin: 100px;
+    padding: 50px 0;
+}
+
+.hfrm {
+    text-align: center;
+}
+
+.hfrm p {
+    margin: 30px 200px;
+    font-size: larger;
+}
+
+.frm {
+    text-align: center;
+}
+
+.frminp input {
+    display: block;
+    width: 35%;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.frminp input:hover {
+    border: 1px solid #000;
+}
+
+.frmbtn {
+    border: 1px solid #000 !important;
+    background: none;
+}
+
+.frmbtn:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------- */
+/* ABOUT SECTION                                              */
+/* ---------------------------------------------------------- */
+.abt {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+        url(../img/about_us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 60px 0 80px;
+}
+
+.abt h2 {
+    margin-left: 100px;
+    padding-top: 80px;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.abt p {
+    margin: 20px 120px 0 60px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------------- */
+/* SUPPORT SECTION                                            */
+/* ---------------------------------------------------------- */
+.sprt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.sprtd {
+    width: 40%;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.sprtd:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.sprtd a {
+    background: #000;
+    border-color: #000;
+    margin-top: 20px;
+}
+
+.sprtd a:hover {
+    background: #e6e6e6;
+    color: #000;
+}
+
+.sprtp {
+    text-align: center;
+    color: #294e95;
+    font-size: large;
+}
+
+.sprtp:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------- */
+/* TERMS PAGE                                                 */
+/* ---------------------------------------------------------- */
+.trms {
+    padding: 20px;
+    background: rgb(223, 223, 223);
+}
+
+.intrms {
+    padding-left: 200px;
+    padding-right: 500px;
+}
+
+.tlt {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.trmscnt {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.trmscnttlt {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 550;
+}
+
+.trmscntlist {
+    padding-left: 50px;
+}
+
+.trmsbpad {
+    padding: 10px;
+}
+
+/* ---------------------------------------------------------- */
+/* FOOTER                                                     */
+/* ---------------------------------------------------------- */
+.ftr {
+    background: #e1e1e1;
+    padding: 20px 120px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ic {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.ic a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.ic i:hover {
+    font-size: 40px;
+    transition: 0.7s;
+}
+
+.cop {
+    flex-basis: 100%;
+    text-align: center;
+    padding-top: 35px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px) brightness(0.5);
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+/* ---------------------------------------------------------- */
+/* RESPONSIVE MEDIA QUERIES — CLEAN & FULLY OPTIMIZED         */
+/* ---------------------------------------------------------- */
+
+/* ---------- 1200px (Large laptops / smaller desktops) ---------- */
+@media (max-width: 1200px) {
+
+    .nv a {
+        font-size: 16px;
+    }
+
+    .hero-text {
+        width: 55%;
+    }
+
+    .crdiv {
+        margin: 0 40px;
+    }
+
+    .srv {
+        margin: 80px 100px;
+    }
+
+    .abt p {
+        font-size: 1.15rem;
+    }
+
+    .intrms {
+        padding: 40px 120px;
+    }
+}
+
+
+/* ---------- 992px (Tablets landscape) ---------- */
+@media (max-width: 992px) {
+
+    /* Navbar wraps */
+    .nv {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .srch {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        height: 480px;
+    }
+
+    .abt p {
+        font-size: 1.1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    /* Product cards */
+    .crds img {
+        height: 170px;
+    }
+
+    /* Terms page */
+    .intrms {
+        padding: 20px 60px;
+    }
+
+    /* Footer */
+    .ftr {
+        padding: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ic {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+
+/* ---------- 768px (Tablets portrait / large phones) ---------- */
+@media (max-width: 768px) {
+
+    /* Navbar compact */
+    .nv {
+        gap: 5px;
+    }
+
+    /* Hero */
+    .hero {
+        height: 350px;
+    }
+
+    .hero-text {
+        width: 75%;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    /* Product grid (2 per row) */
+    .row.row-cols-4 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .crdiv {
+        margin: 0 10px;
+    }
+
+    .crds img {
+        height: 150px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    /* Icon grid (2 columns) */
+    .icp {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin: 40px;
+    }
+
+    /* Sign in */
+    .frminp input {
+        width: 85%;
+    }
+
+    /* About */
+    .abt {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .abt p {
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+
+    /* Support cards */
+    .sprtd {
+        width: 90%;
+    }
+
+    /* Terms page */
+    .intrms {
+        padding: 20px;
+    }
+}
+
+
+/* ---------- 576px (Large phones) ---------- */
+@media (max-width: 576px) {
+
+    .nv a {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    /* Hero */
+    .hero {
+        height: 300px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+    }
+
+    /* Cards: 1 per row */
+    .row.row-cols-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .icp {
+        grid-template-columns: 1fr;
+    }
+
+    .he1 {
+        font-size: 30px;
+    }
+
+    .abt p {
+        font-size: 1rem;
+    }
+
+    .intrms {
+        padding: 15px;
+    }
+
+    .ic {
+        font-size: 28px;
+    }
+}
+
+
+/* ---------- 400px (Small phones) ---------- */
+@media (max-width: 400px) {
+
+    .nv a {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .hero-text h1 {
+        font-size: 20px;
+    }
+
+    .hero-text p {
+        font-size: 10px;
+    }
+
+    .crds img {
+        height: 120px;
+    }
+
+    .btnn {
+        width: 65%;
+    }
+
+    .icp div i {
+        width: 60px;
+        padding: 15px;
+        font-size: 20px;
+    }
+}
+
+
+/* ---------- 330px (Very small phones like iPhone SE) ---------- */
+@media (max-width: 330px) {
+
+    .nv {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nv a {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .hero-text h1 {
+        font-size: 16px;
+    }
+
+    .hero-text p {
+        font-size: 9px;
+    }
+
+    .he1 {
+        font-size: 24px;
+    }
+}
